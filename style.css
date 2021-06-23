@@ -38,6 +38,7 @@ body {
     margin: 0;
     padding-top: 800px;
     background: linear-gradient(#0aeef2 0%, #0a76f2 100%);
+    text-align: center;
 
 }
 
@@ -63,7 +64,9 @@ body {
 }
 }
 
-
+#video {
+    background: linear-gradient(#0aeef2 0%, #0a76f2 100%);
+}
 
 .line {
     height: 6px;
@@ -71,6 +74,7 @@ body {
     width: 70px;
     margin: 8px auto;
 }
+
 
 p {
     max-width: 1000px;
@@ -109,7 +113,7 @@ p {
 #channel {
     background-color: black;
     color: aliceblue;
-        
+
 
     color: blueviolet;
     width: 500px;
@@ -119,12 +123,25 @@ p {
 }
 
 .link:hover {
-    background-color: blue;
+    background-color: lightblue;
+    color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.article:hover {
     color: aliceblue;
 }
 
-#change:hover {
-    background-color: blue;
-    color: aliceblue;
+#writings {
 
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
 }
